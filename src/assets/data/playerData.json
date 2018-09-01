@@ -1,5 +1,9 @@
 {
-"data": [
+"data": {
+  "total_amount": 150000,
+  "team_count": 15,
+  "players_count": 32,
+  "list": [
 	{
     "list_name": "Available Players",
     "listId": 1,
@@ -8,8 +12,8 @@
         "id": 1,
         "player_name": "Player 1",
         "batting": 1,
-        "bowling": 1,
-      "all_round": 1,
+        "bowling": 2,
+      "all_round": 3,
       "value": 10000,
 	  "type": "player"
       },
@@ -18,7 +22,7 @@
         "player_name": "Player 2",
         "batting": 2,
         "bowling": 3,
-      "all_round": 3,
+      "all_round": 1,
       "value": 20000,
 	  "type": "player"
       },
@@ -26,7 +30,7 @@
         "id": 3,
         "player_name": "Player 3",
         "batting": 3,
-        "bowling": 2,
+        "bowling": 1,
       "all_round": 2,
       "value": 30000,
 	  "type": "player"
@@ -57,7 +61,241 @@
       "all_round": 6,
       "value": 2000,
 	  "type": "player"
-      }
+      },
+      {
+        "id": 7,
+        "player_name": "Player 7",
+        "batting": 8,
+        "bowling": 9,
+        "all_round": 10,
+        "value": 20000,
+        "type": "player"
+        },
+        {
+        "id": 8,
+        "player_name": "Player 8",
+        "batting": 9,
+        "bowling": 8,
+        "all_round": 9,
+        "value": 15000,
+        "type": "player"
+        },
+        {
+        "id": 9,
+        "player_name": "Player 9",
+        "batting": 7,
+        "bowling": 10,
+        "all_round": 8,
+        "value": 17000,
+        "type": "player"
+        },
+        {
+        "id": 10,
+        "player_name": "Player 10",
+        "batting": 10,
+        "bowling": 7,
+        "all_round": 7,
+        "value": 10000,
+        "type": "player"
+        },
+        {
+        "id": 11,
+        "player_name": "Player 11",
+        "batting": 11,
+        "bowling": 12,
+        "all_round": 12,
+        "value": 10000,
+        "type": "player"
+        },
+        {
+        "id": 12,
+        "player_name": "Player 12",
+        "batting": 12,
+        "bowling": 11,
+        "all_round": 11,
+        "value": 20000,
+        "type": "player"
+        },
+        {
+        "id": 13,
+        "player_name": "Player 13",
+        "batting": 13,
+        "bowling": 13,
+        "all_round": 13,
+        "value": 5000,
+        "type": "player"
+        },
+        {
+        "id": 14,
+        "player_name": "Player 14",
+        "batting": 14,
+        "bowling": 14,
+        "all_round": 14,
+        "value": 8000,
+        "type": "player"
+        },
+        {
+        "id": 15,
+        "player_name": "Player 15",
+        "batting": 15,
+        "bowling": 15,
+        "all_round": 15,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 16,
+        "player_name": "Player 16",
+        "batting": 16,
+        "bowling": 16,
+        "all_round": 16,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 17,
+        "player_name": "Player 17",
+        "batting": 17,
+        "bowling": 17,
+        "all_round": 17,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 18,
+        "player_name": "Player 18",
+        "batting": 18,
+        "bowling": 18,
+        "all_round": 18,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 19,
+        "player_name": "Player 19",
+        "batting": 19,
+        "bowling": 19,
+        "all_round": 19,
+        "value": 2500,
+        "type": "player"
+        },
+        {
+        "id": 20,
+        "player_name": "Player 20",
+        "batting": 20,
+        "bowling": 20,
+        "all_round": 20,
+        "value": 2200,
+        "type": "player"
+        },
+        {
+        "id": 21,
+        "player_name": "Player 21",
+        "batting": 21,
+        "bowling": 21,
+        "all_round": 21,
+        "value": 1500,
+        "type": "player"
+        },
+        {
+        "id": 22,
+        "player_name": "Player 22",
+        "batting": 22,
+        "bowling": 22,
+        "all_round": 22,
+        "value": 2200,
+        "type": "player"
+        },
+        {
+        "id": 23,
+        "player_name": "Player 23",
+        "batting": 23,
+        "bowling": 24,
+        "all_round": 23,
+        "value": 1800,
+        "type": "player"
+        },
+        {
+        "id": 24,
+        "player_name": "Player 24",
+        "batting": 24,
+        "bowling": 23,
+        "all_round": 24,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 25,
+        "player_name": "Player 25",
+        "batting": 25,
+        "bowling": 25,
+        "all_round": 25,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 26,
+        "player_name": "Player 26",
+        "batting": 26,
+        "bowling": 26,
+        "all_round": 27,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 27,
+        "player_name": "Player 27",
+        "batting": 27,
+        "bowling": 27,
+        "all_round": 26,
+        "value": 2100,
+        "type": "player"
+        },
+        {
+        "id": 28,
+        "player_name": "Player 28",
+        "batting": 28,
+        "bowling": 29,
+        "all_round": 28,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 29,
+        "player_name": "Player 29",
+        "batting": 29,
+        "bowling": 30,
+        "all_round": 29,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 30,
+        "player_name": "Player 30",
+        "batting": 30,
+        "bowling": 28,
+        "all_round": 30,
+        "value": 2000,
+        "type": "player"
+        },
+        {
+        "id": 31,
+        "player_name": "Player 31",
+        "batting": 31,
+        "bowling": 31,
+        "all_round": 31,
+        "value": 1700,
+        "type": "player"
+        },
+        {
+        "id": 32,
+        "player_name": "Player 32",
+        "batting": 32,
+        "bowling": 32,
+        "all_round": 32,
+        "value": 2000,
+        "type": "player"
+        }	  
     ]
     },
     {
@@ -68,4 +306,5 @@
     ]
     }
   ]
+}
   }

@@ -7,24 +7,24 @@ import { AppService } from './app.service';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent  implements OnInit {
-  totalValue: number = 50000;
-  teamPlayerCount: number = 5;
-
-  availableValue: number = 0;
-  selectedvalue: number = 0;
   totalLists: any;
-
-  totalPlayers: number = 0;
-  availablePlayers: number = 0;
-  selectedPlayers: number = 0;
+  totalValue: number;
+  teamPlayerCount: number;
+  availableValue: number;
+  selectedvalue: number; 
+  totalPlayers: number;
+  availablePlayers: number;
+  selectedPlayers: number;
   strength = 0;
 
   constructor(private appService: AppService) {}
 
   ngOnInit() {
     this.appService.get('/assets/data/playerData.json').subscribe(response => {
-      this.totalLists = response.data;
-      this.totalPlayers = 6;
+      this.totalLists = response.data.list;
+      this.totalValue = response.data.total_amount;
+      this.teamPlayerCount = response.data.team_count;
+      this.totalPlayers = response.data.players_count;
       this.listUpdated();
     });
     

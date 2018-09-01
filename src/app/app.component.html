@@ -1,0 +1,88 @@
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-md-12">
+          <h2 class="header">IPL Online Team Selection</h2>
+        </div>
+          </div>
+</div>
+<div class="container">
+<div class="row">
+    <div class="col-md-4 " *ngFor="let list of totalLists;let i = index">
+        <div class="panel panel-info">
+          <div class="panel-heading">
+            <h6 class="panel-title">{{list.list_name}}  :
+              <span *ngIf="i == 0">{{availablePlayers}} </span>
+              <span *ngIf="i == 1">{{selectedPlayers}}/{{teamPlayerCount}}</span>
+            </h6>
+          </div>
+          <div class="panel-body">             
+            <ul class="list-style-none list_container" [dndList]="getAllowedType(i, list.player_list)"
+              [dndModel]="list.player_list">
+              <li *ngFor="let item of list.player_list;let i2 = index"
+                [dndDraggable]
+                [dndDragDisabled]="disableData(i, item)"
+                [dndType]="item.type"
+                [dndObject]="item"
+                (dndMoved)="removeMovedItem(i2, list.player_list)">
+                <div class="media">
+                    <div class="media-left">
+                      <img src="../assets/images/man.svg" class="media-object" style="width:60px">
+                    </div>
+                    <div class="media-body">
+                      <div class="row">
+                        <div class="col-md-4">
+                            <p> {{item.player_name}}</p>
+                            <p> {{item.value | currency:"₹":2}}</p>
+                        </div>
+                        <div class="col-md-8">
+                            <p>Batting Rank : {{item.batting}}</p>
+                            <p>Bowling Rank : {{item.batting}}</p>
+                            <p>All Round Rank : {{item.batting}}</p>
+                        </div>
+                      </div>
+                    </div>
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+        
+        </div>
+        <div class="col-md-4">
+         <div class="right-content">
+            <table>
+                <tbody>
+                    <tr>
+                        <td>Total Budjet</td>
+                        <td>:</td>
+                        <td><span class="p-left15">{{totalValue | currency:"₹":2}}</span></td>
+                   </tr>
+                  <tr>
+                    <td>Used</td>
+                    <td>:</td>
+                    <td><span class="p-left15">{{selectedvalue | currency:"₹":2}}</span></td>
+                  </tr>
+                  <tr>
+                    <td>Available</td>
+                    <td>:</td>
+                    <td><span class="p-left15">{{availableValue | currency:"₹":2}}</span></td>
+                  </tr>
+                  <br>
+                  <br>
+                  <br>
+                  <tr>
+                    <td>Team Strength</td>
+                    <td>:</td>
+                    <td><span class="green-text p-left15">{{strength | number: '0.2-2' }}</span></td>
+                  </tr>
+                </tbody>
+              </table>
+         </div>
+</div>
+
+</div>
+</div>
+<div class="container-fluid">
+    <div class="row footer"></div>
+</div>
+

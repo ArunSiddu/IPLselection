@@ -1,0 +1,53 @@
+{
+"data": [
+	{
+    "list_name": "Available Players",
+    "listId": 1,
+    "player_list": [
+      {
+        "id": 1,
+        "player_name": "Player 1",
+        "batting": 1,
+        "bowling": 1,
+      "all_round": 1,
+      "value": 10000,
+	  "type": "player"
+      },
+      {
+        "id": 2,
+        "player_name": "Player 2",
+        "batting": 2,
+        "bowling": 3,
+      "all_round": 3,
+      "value": 20000,
+	  "type": "player"
+      },
+
+    {
+        "id": 5,
+        "player_name": "Player 5",
+        "batting": 5,
+        "bowling": 4,
+      "all_round": 5,
+      "value": 5000,
+	  "type": "player"
+      }
+    ]
+    },
+    {
+    "list_name": "Selected Players",
+    "listId": 2,
+    "player_list": [
+    {
+        "id": 5,
+        "player_name": "Player 6",
+        "batting": 6,
+        "bowling": 6,
+      "all_round": 6,
+      "value": 2000,
+	  "type": "player"
+      }
+    ]
+    }
+  ]
+  }

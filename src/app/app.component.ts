@@ -20,7 +20,7 @@ export class AppComponent  implements OnInit {
   constructor(private appService: AppService) {}
 
   ngOnInit() {
-    this.appService.get('/assets/data/playerData.json').subscribe(response => {
+    this.appService.get('./assets/data/playerData.json').subscribe(response => {
       this.totalLists = response.data.list;
       this.totalValue = response.data.total_amount;
       this.teamPlayerCount = response.data.team_count;
